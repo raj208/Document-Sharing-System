@@ -1,0 +1,16 @@
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+*.env
+*.db
+src/node_modules/
+src/static/uploads/
+npm-debug.log
+yarn-error.log
+build/
+truffle-config.js
+src/package-lock.json/
+src/packagejson/
