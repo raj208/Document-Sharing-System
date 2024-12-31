@@ -44,11 +44,11 @@ Blockchain technology is integrated to ensure the security, transparency, and im
 
 
 ## **Tech Stack**:
-  Blockchain: Ethereum, Smart Contracts
-  Backend: Node.js, Express
-  Frontend: React
-  Authentication: JWT (JSON Web Tokens)
-  Database: MongoDB (for user data and metadata)
-  Web3: For interacting with the blockchain
+  - Blockchain: Ethereum, Smart Contracts
+  - Backend: Node.js, Express
+  - Frontend: React
+  - Authentication: JWT (JSON Web Tokens)
+  - Database: MongoDB (for user data and metadata)
+  - Web3: For interacting with the blockchain
 
 ---
