@@ -1,59 +1,54 @@
-# Document Sharing System
+# **Document Sharing System with Blockchain Integration**
 
-This project is a full-stack web application that allows users to upload, share, and download documents. The platform ensures secure document sharing with real-time notifications and a user-friendly interface.
+This project is a secure and decentralized document-sharing platform built on blockchain technology. It allows users to create accounts, upload and download documents, and securely share them. The use of blockchain ensures transparency, immutability, and enhanced security for document transactions.
 
----
+## **How Blockchain is Used in This Project**
 
-## **Project Overview**
+Blockchain technology is integrated to ensure the security, transparency, and immutability of documents shared on the platform. Here's how blockchain is implemented:
 
-The Document Sharing System enables users to:
+- **Decentralized Document Storage**:  
+  Rather than storing documents on a traditional server, documents are stored on the blockchain, ensuring that once a document is uploaded, it cannot be altered or deleted, guaranteeing its authenticity.
 
-- **Create an account** with personalized information.
-- **Upload documents** to be shared with friends or the public.
-- **Download shared documents** from the platform.
-- **Manage document sharing** through a user-friendly interface.
+- **Transaction Record**:  
+  Each document upload and download is recorded as a transaction on the blockchain. This adds an additional layer of accountability and ensures that every action involving a document is logged securely.
 
----
+- **Security & Immutability**:  
+  Blockchain's decentralized nature means that documents are distributed across multiple nodes, reducing the risk of data tampering or loss. Every document uploaded is hashed and the hash is stored on the blockchain, ensuring that the document's integrity is preserved.
+
+- **Smart Contracts for Document Sharing**:  
+  Smart contracts are used to manage permissions for document sharing. They ensure that only authorized users can access or modify documents, and enforce predefined rules for document sharing based on user interactions.
 
 ## **Features**
 
-- **Account Creation**: 
-  Users can create an account by filling in required details.
+- **Blockchain Integration**:  
+  Documents are stored securely on the blockchain, ensuring transparency, immutability, and tamper-proof storage.
 
-- **Document Uploading**: 
-  Users can upload various types of documents for sharing.
+- **Account Creation**:  
+  Users can create an account by filling in the required details, with all actions recorded on the blockchain.
 
-- **Document Downloading**: 
-  Documents shared by other users can be downloaded easily.
+- **Document Uploading**:  
+  Users can upload documents, which are securely stored on the blockchain. The system records metadata, such as document hashes, ensuring that the uploaded documents are immutable.
 
-- **User Authentication**: 
-  Users are authenticated using JWT (JSON Web Tokens) for secure login and session management.
+- **Document Sharing**:  
+  Documents can be shared between users, with blockchain technology guaranteeing the integrity and security of the shared files.
+
+- **Document Downloading**:  
+  Users can download documents that have been shared by other users. Blockchain ensures that these documents have not been tampered with.
+
+- **User Authentication**:  
+  Users are authenticated using JWT (JSON Web Tokens), ensuring secure login and session management.
+
+## **Screenshots**:
+![Screenshot 1](./screenshots/Screenshot 2024-12-31 205332.png)
+![Screenshot 2](./screenshots/Screenshot 2024-12-31 205521.png)
+
+
+## **Tech Stack**:
+    Blockchain: Ethereum, Smart Contracts
+    Backend: Node.js, Express
+    Frontend: React
+    Authentication: JWT (JSON Web Tokens)
+    Database: MongoDB (for user data and metadata)
+    Web3: For interacting with the blockchain
 
 ---
-
-## **Technologies Used**
-
-- **Frontend**:
-  - React.js (or another suitable JavaScript framework)
-  - HTML, CSS (or SCSS for styling)
-  - Axios for API calls
-
-- **Backend**:
-  - Node.js with Express.js (or Django/Flask if you're using Python)
-  
-- **Database**:
-  - MongoDB / MySQL / PostgreSQL (depending on your database choice)
-
-- **Authentication**:
-  - JWT (JSON Web Tokens) for secure authentication
-
----
-
-## **Installation**
-
-To set up and run this project locally, follow these steps:
-
-### 1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/your-repository.git
