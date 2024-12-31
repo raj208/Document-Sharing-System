@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # **Document Sharing System with Blockchain Integration**
 
 This project is a secure and decentralized document-sharing platform built on blockchain technology. It allows users to create accounts, upload and download documents, and securely share them. The use of blockchain ensures transparency, immutability, and enhanced security for document transactions.
@@ -52,3 +53,7 @@ Blockchain technology is integrated to ensure the security, transparency, and im
     Web3: For interacting with the blockchain
 
 ---
+=======
+# Document-Sharing-System
+Document Sharing System is a web app for securely uploading, sharing documents
+>>>>>>> b44352185689cfb1f4930f7f457dd3fcc7d9f2c6
