@@ -8,6 +8,7 @@ venv/
 *.db
 src/node_modules/
 src/static/uploads/
+src/static/scss/
 npm-debug.log
 yarn-error.log
 build/
